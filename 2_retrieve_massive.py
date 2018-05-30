@@ -6,7 +6,7 @@ import csv
 from newspaper import Article
 import time
 
-df = pd.read_csv("list_google_v2.csv") # read in data
+df = pd.read_csv("list_google.csv") # read in data
 links = df.Links.tolist() # convert to list
 n = 1
 with open("test.csv",'w') as resultFile:
